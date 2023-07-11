@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view_cart_button"
+        android:title="@{activity1.menuItem1Text}"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/sign_out_button"
+        android:title="@{activity1.menuItem2Text}"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/empty_cart_button"
+        android:title="@{activity2.menuItem3Text}"
+        android:showAsAction="ifRoom" />
+</menu>
